@@ -4,7 +4,7 @@ import imutils
 import datetime
 
 gun_cascade = cv2.CascadeClassifier('Weapon_cascade.xml')
-#camera = cv2.VideoCapture('F:\Projects and Research\Weapon Detection using OpenCV\Data\John Wick- Chapter 2 (2017) - Museum Fight Scene.mp4')
+#camera = cv2.VideoCapture('F:\Projects and Research\Weapon-detector\Data\John Wick- Chapter 2 (2017) - Museum Fight Scene.mp4')
 camera = cv2.VideoCapture('F:\Projects and Research\Weapon Detection using OpenCV\Data\Sample.mp4')
 
 # initialize the first frame in the video stream
